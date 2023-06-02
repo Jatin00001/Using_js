@@ -8,7 +8,7 @@ switch (a){
         console.log(`this is ${a} section and its price is $40`);
         alert(`this is ${a} section and its price is $40`);
         break;
-    default:
+    default:    
         console.log("Not in our data");
         alert("Not in our data")
 }
