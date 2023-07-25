@@ -21,15 +21,14 @@
 
 const admindetails = {
     name : "Jatin", // objects have key and value pair`
-    Date : "none" // Date is -- Key & none --> value
+    Date : "none" // Date is -- Key & value --> none
 }
-console.log("admin details is ",admindetails)
+// console.log("admin details is ",admindetails)
 const Details_of_student = {
     "name" : "Jatin",
     "phone_num" : "931212335",
     "Marks": 64,
     "Pass" : true,
-    "Fail": false,
     49 : "fourty nine"
 }
 // console.log("Student Details",Details_of_student)
@@ -40,9 +39,31 @@ const Details_of_student = {
 // for(let item of Object.keys(Details_of_student)){
 //     console.log(item)
 // }
+
+
 // for(let item of Object.values(Details_of_student)){
 //     console.log(item)
 // }
-for(let i of Object.values(admindetails)){
-    console.log(typeof i)
-}
+
+// this loop like f string type in single lines we can write keys and values alsop
+// for (const items in Details_of_student) {   
+//    console.log(`${items} : ${Details_of_student[items]}`)
+
+// }
+
+// console.log(`this is ${Details_of_student.phone_num}`)
+
+// for (const items in Details_of_student) {   
+//     console.log(`${items}`)
+ 
+//  }
+
+// for(let item in Details_of_student){ // we use in for loop for accessing keys 
+//     console.log(item)
+// }
+// const length = Object.values(Details_of_student).length // gives a length of its object using keys and values
+
+// console.log(typeof(length));
+// for(let i of Object.values(admindetails)){
+//     console.log(typeof i)
+// }
