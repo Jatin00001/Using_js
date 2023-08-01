@@ -1,1 +1,1 @@
-console.log("HEllo World! new type")
+console.log("HEllo World! i am js")
